@@ -1,0 +1,255 @@
+@media (max-width: 960px) and (min-width: 641px) {
+	.header {
+    padding: 2.5em 2.5em 6em;
+}
+
+body {
+    font-size: 2.08vw;
+}
+
+.logo {
+    max-width: 12.81em;
+    margin: 0 auto;
+    width: 100%;
+}
+.hero-text {
+    margin-top: 7.75em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 37.9em;
+}
+
+.header h1, .header p {
+    font-size: 4em;
+    letter-spacing: 0.056em;
+    margin-bottom: 0.1em;
+}
+
+.header p {
+    margin-left: 1em;
+    letter-spacing: 0.05em;
+}
+
+.button__block {
+    margin-top: 18em;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.appstore, .googleplay {
+    max-width: calc(50% - 2.5em);
+    flex: 1 auto;
+    padding: 1.4em;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    justify-content: center;
+}
+
+.button__block .white {
+    left: 1.3em;
+    font-size: 1.8em;
+    padding: 0;
+    position: absolute;
+}
+
+.googleplay .white {
+    left: 1.7em;
+}	
+.btn__text {
+    color: white;
+    line-height: 1.25;
+    padding-left: 3em;
+    letter-spacing: 0.3px;
+    font-size: 0.875em;
+}
+
+.btn__text span {
+    letter-spacing: 1px;
+}
+.block {
+    position:relative;
+}
+
+li:nth-child(1) {
+    padding-top: 2em;
+}
+.section {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
+
+.section-image .img {
+    margin-top: 0.8em;
+    margin: auto;
+    max-width: 31em;
+    top: 6em;
+    right: calc(100% - 21em);
+    position: absolute;
+}
+.img.players {
+    right: 0;
+}
+.style h2 {
+    font-size: 5em;
+    margin-left: 3.45em;
+    margin-top: 0.75em;
+}
+.block:last-child h2 {
+    font-size: 5em;
+    margin-left: 0.1em;
+    margin-top: 0.75em;
+}
+ .block:last-child li:nth-child(3) {
+  background: #090c35;
+  font-size:1.125em;
+  padding-right: 35%;
+  padding-left: 1.7em;
+  padding-top: 2em;
+  padding-bottom: 1.9em;
+}
+
+.block:last-child ol > li:last-child > h3:before {
+    content: "0" counter(list) "";
+    border-bottom: 0.25em solid #ffffff;
+    color: #5e42b0;
+}
+.block:last-child ol > li:last-child > h3 {
+   letter-spacing: -1.6px;
+}
+.section.style ol > li {
+    padding-left: 18.35em;
+}
+.block:last-child ol > li {
+    padding-left: 2em;
+    padding-right: 21em;
+}
+ol > li {
+    padding-top: 2.2em;
+    padding-bottom: 2.2em;
+}
+
+.style h3 {
+    font-size: 2em;
+    letter-spacing: 1.3px;
+}
+.style p {    
+  margin-top: 1.75em;    
+  letter-spacing: 1.6px;    
+  line-height: 1.9;    
+  margin-bottom: 0;
+  }
+.style li:last-child {
+  color: white;
+}
+.block:last-child ol > li:last-child > p {  
+margin-top: 1.2em;  
+letter-spacing: 1.8px;  
+line-height: 1.75;
+}
+.activity > .card h3:before {
+    content: "0" counter(heading) "";
+    line-height: 0.8em;
+    line-height: 1.5;
+    text-underline-position: under;
+    text-decoration: underline;
+    text-decoration-color: #8f7bc8;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    padding: 1.5em 1.7em;
+    margin-left: 0.2em;
+    margin-top: -3.5em;
+    color: black;
+    top: 0;
+    position: absolute;
+    background: #5e42b0;
+    color: white;
+}
+.card__content {
+  
+padding-left: 1.7em;
+  
+padding-bottom: 6.4em;
+}
+.card h3 {
+    color: #e7e7e7;
+    font-size: 5em;
+    padding-top: 0.55em;
+    line-height: 1.25;
+    letter-spacing: 0;
+}
+.activity p {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-left: 4px;
+    letter-spacing: 1.25px;
+    line-height: 1.25;
+    font-size: 1.5em;
+}
+.card:last-child .card__content {
+    padding-bottom: 6.85em;
+}
+.text-logo {
+  flex: 1 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 104px;
+}
+
+.text-logo svg {
+  box-sizing:border-box;
+  font-size: 2.75em;
+  padding: 0em 0.25em;
+  line-height: 1;
+  height: 3.1em;
+  width: 2.9em;
+  border-radius: 0.6em;
+}
+
+
+.footer-text {
+    margin-top: 70px;
+}
+
+.footer h1 {
+    font-size: 5em;
+    letter-spacing: 4.4px;
+    margin: 0;
+}
+
+.footer-text > p {
+    font-size: 2.25em;
+    margin-bottom: 0;
+}
+.footer .button__block {
+    margin-top: 13.5em;
+    padding: 0 1em;
+    flex: 1 100%;
+    margin-bottom: 3.5em;
+    justify-content: space-around;
+}
+.img .players {
+    right: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

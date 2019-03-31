@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 1.75em;
+	letter-spacing: 1px;	
+	text-transform: uppercase;
+}
+body {
+    font-size: 5vw;
+    margin: 0;
+    line-height: 1.25;
+}
+.header, .footer {
+    background-color: #222248;
+    background-blend-mode: overlay;
+    max-width: 100%;   
+    min-height: calc(568px - 2.5em);  
+    align-content: right;
+    display: flex;
+    flex-wrap: wrap;   
+    padding: 1.25em;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+	background-image: url(../img/football_767.jpg);
+}
+
+.header p {
+	text-transform: uppercase;
+	padding-left: 2.8rem;	
+	font-size: 1.75em;
+	margin-top: 0;
+	letter-spacing: 1.2px;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+.header a {
+	max-width: 100%;	
+	line-height: 0.75rem;	
+	padding-right: : 5.25rem;
+	margin-bottom: 0.9rem;
+	text-transform: uppercase;	
+	font-weight: 400;
+	background-color: #5e42b0;
+	border-radius: 2rem;
+	color: white;	
+}
+.header a span {
+	max-width: 100%;
+	font-size: 0.5em;
+	display: block;
+	font-weight: 700;
+}
+
+.hero-text {
+    color: white;  
+}
+.logo {
+    max-width: 8.3125em;
+    margin: 0.8em auto;
+    flex: 1 100%;
+}
+.text-logo {
+  margin: 5em auto 0;
+  background: #7755d7;
+  background: -moz-linear-gradient(top, #7755d7 0%, #50379a 100%); 
+  background: -webkit-linear-gradient(top, #7755d7 0%,#50379a 100%); 
+  background: linear-gradient(to bottom, #7755d7 0%,#50379a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7755d7', endColorstr='#50379a',GradientType=0 );
+}
+.button__block, .footer-text {
+    flex: 1 auto;
+}
+.button__block .white {
+	width: 1.5em;
+	height: 1.5em;
+	padding-left: 4.75em;
+	padding-right: 0.5em;
+}
+.appstore, .googleplay {
+     background: #5e42b0;
+     display: flex;
+     padding: 0.3em;
+     margin-top: 0.9em;
+     border-radius: 2em;
+}
+.googleplay {
+  margin-top: 1em;
+  }
+.white {
+	overflow: visible;
+	fill: #ffffff;
+}
+ol {
+    padding: 0;
+    margin: 0;
+}
+ol > li {
+	list-style-type:none;
+	counter-increment: list;
+	margin: auto;
+	padding-top: 3.75em;
+	padding-left: 1.25em;
+	line-height: 1.25;
+	padding-right: 1.25em;
+	padding-bottom: 2em;
+}
+.style ol > li > h3:before {
+    content: "0" counter(list) "";
+    border-bottom: 0.25em solid #5e42b0;
+    align-self: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 0.608em;
+    margin-right: 0.5em;   
+    color: black; 
+}
+.style h3 {
+    display: flex;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 1.4375em;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+.btn__text span {
+	display: block;
+	font-weight: 700;
+}
+h2 {
+	font-size: 3.125em;
+	line-height: 0.83em;	
+	color: #e7e7e7;	
+	text-transform: uppercase;
+}
+.btn__text {
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-size: 0.5em;
+}
+li:nth-child(1) {
+    background: #fafafa;
+    margin-top: 0;
+    padding-top: 5em;
+}
+
+.section-image .img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3.5em;
+    display: flex;
+}
+li:nth-child(2) {
+    background: #f5f4f9;
+}
+
+li:nth-child(3) {
+    background: #5e42b0;
+}
+
+ol > li:last-child > h3:before {
+    border-bottom: 0.25em solid #fff;
+}
+
+.activity > .card {
+    list-style-type: none;
+    counter-increment: heading;
+}
+
+.activity > .card h3:before {
+    content: "0" counter(heading) "";
+    line-height: 0.8em;
+    line-height: 1em;
+    text-underline-position: under;
+    text-decoration: underline;
+    text-decoration-color: #8f7bc8;
+    font-size: 0.5em;
+    box-sizing: border-box;
+    padding: 1.9em;
+    margin-top: -4.1em;
+    color: black;
+    top: 0;
+    position: absolute;
+    background: #5e42b0;
+    color: white;
+}
+
+.activity .img {
+    display: flex;
+    min-width: 100%;
+    display: flex;
+    max-width: 100%;
+}
+.card__content {
+    padding: 1.25em;
+    position: relative;
+    padding-bottom: 4.85em;
+}
+.card:last-child .card__content {
+     padding-bottom: 4.15em;
+}
+
+h3 {   
+    margin: 0;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+
+.card h3 {
+    color: #e7e7e7;
+    font-size: 1.75em;
+    padding-top: 0.4em;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.text-logo svg {
+    width: 3.5em;
+    height: 3em;
+    padding: 0.75em 0.375em;
+    border-radius: 1em;
+    line-height: 1;
+    background: #7755d7;
+    background: -moz-linear-gradient(top, #7755d7 0%, #50379a 100%);
+    background: -webkit-linear-gradient(top, #7755d7 0%,#50379a 100%);
+    background: linear-gradient(to bottom, #7755d7 0%,#50379a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7755d7', endColorstr='#50379a',GradientType=0 );
+}
+.footer-text {
+	text-align: center;word-break: keep-all;margin: 0 auto;
+}
+.footer-text > h2 {
+    font-size: 2em;
+    color: white;
+    margin-top: auto;
+}
+
+.style h2 {
+    margin: 0;
+    padding: 1.25rem;
+}
+.footer {
+	background-image: url('../img/game_767.jpg');
+	/* padding-bottom: 3em; */
+}
+.footer-text > p {
+    margin: 0.375em auto 1em;
+    text-transform: uppercase;
+    color: #9b8ec1;
+    font-size: 0.95em;
+}
+
+.footer h1 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    margin-top: 0.35em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.test {
+    /* background-image: url(../img/surface_768.jpg); */
+    background-image: url(../img/surface_320.jpg);
+    /* background-image: url(../img/surface_desktop.jpg); */
+    top: 0;
+    position: absolute;
+    left: 0;
+    background-size: 20em 4766px;
+    /* max-width: 100%; */
+    right: 0;
+    margin: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    min-height: 10000%;
+    z-index: 50;
+}
+.style p {
+    margin-top: 1.45em;
+    margin-bottom: 1.35em;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-size: 0.9em;
+}
+.section-image .players {
+    margin-bottom: -1.5em;
+}
+.activity p {
+    margin-top: 1.15em;
+    margin-bottom: 0;
+    letter-spacing: 0.75px;
+    line-height: 1.25;
+    font-size: 1em;
+}
+
+.footer .logo {
+    margin: auto auto -1em auto;
+}

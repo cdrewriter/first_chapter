@@ -1,0 +1,332 @@
+@font-face {
+font-family: "Open Sans";
+  src: local('☺'), 
+  url("../fonts/OpenSans-Regular.woff") format("woff"),
+  url("../fonts/OpenSans-Regular.ttf") format("truetype"), 
+  url('../fonts/OpenSans-Regular.woff2') format('woff2'),  
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family: "Open Sans";
+  src: local('☺'), 
+  url("../fonts/OpenSans-Bold.woff") format("woff"),
+  url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+  url('../fonts/OpenSans-Bold.woff2') format('woff2'),  
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+body {
+    font-size: 5vw;
+    margin: 0;
+    line-height: 1.25;
+}
+.header, .footer {
+    background-color: #222248;
+    background-blend-mode: overlay;
+    max-width: 100%;
+    align-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25em;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+	background-image: url(../img/football_767.jpg);
+}
+
+.header p {
+	text-transform: uppercase;
+	padding-left: 2.8rem;	
+	font-size: 1.75em;
+	margin-top: 0;
+	letter-spacing: 1.2px;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+.header a {
+	max-width: 100%;	
+	line-height: 0.75rem;	
+	padding-right: : 5.25rem;
+	margin-bottom: 0.9rem;
+	text-transform: uppercase;	
+	font-weight: 400;
+	background-color: #5e42b0;
+	border-radius: 2rem;
+	color: white;	
+}
+.header a span {
+	max-width: 100%;
+	font-size: 0.5em;
+	display: block;
+	font-weight: 700;
+}
+
+.hero-text {
+    color: white;
+    margin-top: 6.8em;
+    flex: 1 100%;
+}
+.logo {
+    max-width: 8.3125em;
+    margin: 0.8em auto 0;
+    flex: 1 100%;
+}
+.text-logo {
+  margin: 5em auto 0;
+}
+.button__block {
+    flex: 1 100%;
+    margin-top: 5.2em;
+    margin-bottom: 4em;
+}
+.footer-text {
+    flex: 1 auto;
+    margin-top: 2.5em;
+    margin-bottom: 3.75em;
+}
+.button__block .white {
+	width: auto;
+	height: 1.5em; 
+	padding-left: 4.75em; 
+	padding-right: 0.5em;
+}
+.appstore, .googleplay {
+     background: #5e42b0;
+     display: flex;
+     padding: 0.3em;
+     border-radius: 2em;
+     box-shadow: 0 2px 4px -1px #0a0e34;
+}
+.googleplay {
+  margin-top: 1em;
+  }
+  
+.white {
+	overflow: visible;
+	fill: #ffffff;
+}
+ol {
+    padding: 0;
+    margin: 0;
+}
+ol > li {
+	list-style-type:none;
+	counter-increment: list;
+	margin: auto;
+	padding-top: 3.75em;
+	padding-left: 1.25em;
+	line-height: 1.25;
+	padding-right: 1.25em;
+	padding-bottom: 2em;
+}
+.style ol > li > h3:before {
+    content: "0" counter(list) "";
+    border-bottom: 0.25em solid #5e42b0;
+    align-self: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 0.608em;
+    margin-right: 0.5em;   
+    color: black; 
+}
+.style h3 {
+    display: flex;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 1.4375em;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+.btn__text span {
+	display: block;
+	font-weight: 700;
+}
+h2 {
+	font-size: 3.125em;
+	line-height: 0.83em;	
+	color: #e7e7e7;	
+	text-transform: uppercase;
+}
+.btn__text {
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-size: 0.5em;
+    letter-spacing: 0.05em;
+}
+li:nth-child(1) {
+    background: #fafafa;
+    margin-top: 0;
+    padding-top: 5em;
+}
+
+.section-image .img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3.5em;
+    display: flex;
+}
+li:nth-child(2) {
+    background: #f5f4f9;
+}
+
+li:nth-child(3) {
+    background: #5e42b0;
+}
+
+ol > li:last-child > h3:before {
+    border-bottom: 0.25em solid #fff;
+}
+
+.activity > .card {
+    list-style-type: none;
+    counter-increment: heading;
+}
+
+.activity > .card h3:before {
+    content: "0" counter(heading) "";
+    line-height: 0.8em;
+    line-height: 1em;
+    text-underline-position: under;
+    text-decoration: underline;
+    text-decoration-color: #8f7bc8;
+    font-size: 0.5em;
+    box-sizing: border-box;
+    padding: 1.9em;
+    margin-top: -4.1em;
+    color: black;
+    top: 0;
+    position: absolute;
+    background: #5e42b0;
+    color: white;
+}
+
+.activity .img {
+    display: flex;
+    display: flex;
+    max-width: 100%;
+}
+.card__content {
+    padding: 1.25em;
+    position: relative;
+    padding-bottom: 4.85em;
+    padding-top: 1.15em;
+    flex: 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+h3 {   
+    margin: 0;
+    text-transform: uppercase;
+    color: #c1c1c1;
+}
+
+.card h3 {
+    color: #e7e7e7;
+    font-size: 1.75em;
+    padding-top: 0.4em;
+    line-height: 1;
+    letter-spacing: 0.075em;
+}
+
+.text-logo svg {
+    width: 4.5em;
+    padding: 0.75em 0.6em;
+    border-radius: 1em;
+    line-height: 1;
+    background: #7755d7;
+    background: -moz-linear-gradient(top, #7755d7 0%, #50379a 100%);
+    background: -webkit-linear-gradient(top, #7755d7 0%,#50379a 100%);
+    background: linear-gradient(to bottom, #7755d7 0%,#50379a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7755d7', endColorstr='#50379a',GradientType=0 );
+}
+.footer-text {
+	text-align: center;
+	word-break: keep-all;
+}
+.footer-text > h2 {
+    font-size: 2em;
+    color: white;
+    margin-top: auto;
+}
+
+.style h2 {
+    margin: 0;
+    padding: 1.25rem;
+}
+.footer {
+	background-image: url('../img/game_767.jpg');
+}
+@media (min-width: 961px) {
+.footer {
+	background-image: url('../img/game_1280.jpg');
+}
+}
+@media (min-width: 1281px) {
+.footer {
+	background-image: url('../img/game_1920.jpg');
+}
+}
+.footer-text > p {
+    margin: 0.375em auto 1em;
+    text-transform: uppercase;
+    color: #9b8ec1;
+    font-size: 0.95em;
+}
+
+.footer h1 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    margin-top: 0.35em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.style p {
+    margin-top: 1.45em;
+    margin-bottom: 1.35em;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-size: 0.9em;
+}
+.section-image .players {
+    margin-bottom: -1.5em;
+}
+.activity p {
+    margin-top: 1.15em;
+    margin-bottom: 0;
+    letter-spacing: 0.075em;
+    line-height: 1.25;
+    font-size: 1em;
+}
+
+.footer .logo {
+    margin: auto auto 0em auto;
+}
+.footer .button__block {
+    flex: 1 auto;
+    margin-top: 0;
+    margin-bottom: 5em;
+}

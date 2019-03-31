@@ -1,0 +1,310 @@
+@media (min-width: 961px) {
+.header {
+    background-image: url(../img/football_1280.jpg);
+    padding: 2.81em 11.65em;
+}
+}
+
+@media (min-width: 1280px) {
+.header {
+    background-image: url(../img/football_1920.jpg);
+}
+}
+
+@media (min-width: 961px) {
+    body {
+    font-size: 0.83vw;
+}
+    .logo {
+    max-width: 12em;
+    margin-top: 0;
+    flex: 1 100%;
+}
+.hero-text {
+    margin-top: 17.25em;
+}
+
+.header h1, .header p {
+    font-size: 5.625em;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+}
+
+.header p {
+    direction: rtl;
+
+}
+
+.button__block {
+
+    margin-top: 13.2em;
+
+    max-width: 42em;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.appstore, .googleplay {
+    background: #5e42b0;
+    display: flex;
+    padding: 1.1em;
+    margin-top: 0;
+    margin-left: 0 1em;
+    flex: 1 auto;
+    border-radius: 2em;
+    position: relative;
+    max-width: calc(50% - 1.5em);
+
+}
+.btn__text {
+    font-size: 0.875em;
+    margin-left: 5.7em;
+    letter-spacing: 0.1em;
+}
+.googleplay .btn__text {
+    margin-left: 7.5em;
+}
+.button__block .white {
+     height: 1.5em;
+    padding: 0;
+    left: 1em;
+    top: 0.3em;
+    font-size: 2em;
+    position: absolute;
+}
+.googleplay .white {
+    left: 1.65em;
+}
+.style h2 {
+    font-size: 5em;
+    margin-left: calc(50% + 0.35em);
+    margin-top: 0.75em;
+    margin-top: 1.1em;
+}
+
+.style .block:last-child h2 {
+    font-size: 5em;
+    margin-left: 10rem;
+    margin-top: 0.75em;
+    margin-top: 1.1em;
+}
+
+.section-image .img {
+    position: absolute;
+    top: -3.75em;
+    max-width: 35.375em;
+    left: calc(50% - 35.5em);
+}
+
+
+.style h3 {
+    font-size: 2.25em;
+    letter-spacing: 2px;
+}
+.style ol li:last-child h3:before {
+    content: "0" counter(list) "";
+    border-bottom: 0.25em solid #ffffff;
+    align-self: center;
+    display: flex;
+    font-weight: 700;
+    line-height: 1.65;
+    font-size: 0.5em;
+    margin-right: 0.35em;
+}
+.style .block:last-child li:last-child h3:before {
+    position: relative;color: #9173e6;
+}
+
+.block {
+    position: relative;
+}
+ol > li {
+    padding-left: calc(50% + 3em);
+    padding-bottom: 2em;
+    padding-right: 11.65em;
+}
+.block:last-child  li:nth-child(1) {
+    background: #fafafa;
+    margin-top: 0;
+    padding-top: 5em;
+}
+.block:last-child ol > li {
+    padding-right: calc(50% + 1em);
+    padding-left: 11.65em;
+    padding-top: 3em;
+    padding-bottom: 3.5em;
+}
+.style p {
+    margin-top: 1.35em;
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-size: 1.25em;
+}
+.style li:nth-child(3) p {
+    color: #fff;
+}
+.style .block:nth-child(2) li:nth-child(3) {
+    background: #0a0e34;
+}
+.style .block:nth-child(3) li:nth-child(3) h3:before {
+    color: #9173e6;   
+}
+.section-image .players {
+    right: 7.5em;
+    left: auto;
+    max-width: 61.875em;
+    top: -4.2em;
+}
+.block:last-child  li:nth-child(3) {
+    padding-top: 3.5em;
+    padding-bottom: 2em;
+}
+ .activity .card {
+     display: flex;
+ }
+ .card h3 {
+    font-size: 5em;padding-top: initial;letter-spacing: 0;
+}
+
+.card__content {
+    padding-left: 7.5em;
+}
+.card:nth-child(2) .card__content {
+    padding-left: 11.5em;
+    padding-bottom: 17.3em;
+    padding-right: 7.5em;
+    order: -1;
+}
+
+.activity p {
+    margin-top: 6.375rem;
+    padding-right: 6.95em;
+    font-size: 1.5em;
+}
+.activity .card:nth-child(2) p {
+    margin-top: 4rem;
+    padding-right: initial;
+}
+
+.card-image, .card__content {
+    flex: 1 50%;
+}
+
+.activity > .card h3:before {
+    right: calc(100% - 3.45em);
+    font-size: 0.3em;
+    padding: 2.7em 2.9em;
+    top: calc(50% + -2.3em);
+}
+
+.activity > .card:nth-child(2) h3:before {
+    left: calc(100% - 3.45em);
+    font-size: 0.3em;
+    padding: 2.5em 4em 3em 2.9em;
+    top: calc(50% - 2.3em);
+}
+
+.activity .img {
+    display: none;
+}
+
+.card:first-child .card-image{
+    background-image: url(../img/be-active_1024.jpg);
+    background-size: 125%;
+    background-position: 80% 10%;
+}
+.card .card-image {
+    background-image: url(../img/find-contact_1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card:last-child .card-image {
+    background-image: url(../img/work-it_1024.jpg);
+    background-size: cover;
+    background-position: 47% 40%;
+    background-repeat: no-repeat;
+}
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 14.45em 31.5em 3em;
+}
+
+.footer > * {
+    margin: initial;
+}
+
+.text-logo, .footer-text {
+    flex: 1 auto;
+    margin: initial;
+}
+
+.footer .button__block {
+    flex: 1 100%;
+    max-width: 100%;
+    padding: 0 6.5em;
+    margin-top: 9.2em;
+}
+
+.footer .logo {
+    flex: 1 100%;
+    margin: 11.2em auto 0;
+}
+
+.footer h1 {
+    font-size: 5em;
+    margin: 0;
+    padding-top: 0.1em;
+    letter-spacing: 3.7px;
+}
+
+.footer-text > p {
+    font-size: 1.875em;
+    margin-bottom: 0;
+    padding-left: 0.2em;
+    margin-top: 0.2em;
+}
+
+.card:last-child .card__content {
+     padding-bottom: 13em;
+}
+
+.footer-text {
+    text-align: left;
+    flex: 1;
+}
+
+.text-logo {
+    max-width: 8.125em;
+    margin-right: 1.9em;
+}
+.text-logo svg {
+    width: 8.125em;
+    height: 8.5em;
+    padding: 1.65em 0;
+    border-radius: 2em;
+}
+.card__content {
+    padding-top: 15.45em;
+    padding-left: 7.5em;
+    padding-bottom: 15em;
+    display: flex;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
